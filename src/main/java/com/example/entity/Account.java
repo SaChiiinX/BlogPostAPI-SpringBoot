@@ -5,7 +5,6 @@ import javax.persistence.*;
 /**
  * This is a class that models an Account.
  *
- * You should NOT make any modifications to this class.
  */
 @Entity
 @Table(name="account")
@@ -43,7 +42,7 @@ public class Account {
         this.password = password;
     }
     /**
-     * Whem retrieving an Account from the database, all fields will be needed. In that case, a constructor with all
+     * When retrieving an Account from the database, all fields will be needed. In that case, a constructor with all
      * fields is needed.
      * @param accountId
      * @param username

@@ -145,5 +145,5 @@ public class SocialMediaController {
     @GetMapping("/accounts/{accountId}/messages")
     public ResponseEntity<List<Message>> getMessagesById(@PathVariable("accountId") int accountId){
         return ResponseEntity.ok(messageService.getAllMessagesById(accountId));
-    }
+    } 
 }
